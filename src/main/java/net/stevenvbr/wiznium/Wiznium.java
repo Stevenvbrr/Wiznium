@@ -14,6 +14,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.stevenvbr.wiznium.block.ModBlocks;
 import net.stevenvbr.wiznium.item.ModItems;
 import org.slf4j.Logger;
 
@@ -35,9 +36,7 @@ public class Wiznium
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.regiter(modEventBus);
-
-
-
+        ModBlocks.register(modEventBus);
 
 
         // Register the item to a creative tab
@@ -57,6 +56,11 @@ public class Wiznium
     if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
         event.accept(ModItems.AZIUM_INGOT);
         event.accept(ModItems.WIZNIUM_INGOT);
+        }
+
+    if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+        event.accept(ModBlocks.AZIUM_ORE);
+        event.accept(ModBlocks.WIZNIUM_ORE);
     }
     }
 

@@ -1,4 +1,7 @@
 {
   "item.wiznium.azium_ingot": "Lingot d'azium",
-  "item.wiznium.wiznium_ingot": "Lingot de wiznium"
+  "item.wiznium.wiznium_ingot": "Lingot de wiznium",
+
+  "block.wiznium.azium_ore": "Minerai d'azium",
+  "block.wiznium.wiznium_ore": "Minerai de wiznium"
 }

@@ -1,4 +1,10 @@
 {
   "item.wiznium.azium_ingot": "Azium Ingot",
-  "item.wiznium.wiznium_ingot": "Wiznium Ingot"
+  "item.wiznium.wiznium_ingot": "Wiznium Ingot",
+
+
+
+
+  "block.wiznium.azium_ore": "Azium Ore",
+  "block.wiznium.wiznium_ore": "Wiznium Ore"
 }
