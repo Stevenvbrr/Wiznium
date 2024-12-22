@@ -6,5 +6,8 @@
 
 
   "block.wiznium.azium_ore": "Azium Ore",
-  "block.wiznium.wiznium_ore": "Wiznium Ore"
+  "block.wiznium.wiznium_ore": "Wiznium Ore",
+
+  "creativetab.wiznium.wiznium_blocks": "Block",
+  "creativetab.wiznium.wiznium_items": "Items"
 }

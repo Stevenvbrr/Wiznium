@@ -15,6 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.stevenvbr.wiznium.block.ModBlocks;
+import net.stevenvbr.wiznium.item.ModCreativeModeTabs;
 import net.stevenvbr.wiznium.item.ModItems;
 import org.slf4j.Logger;
 
@@ -37,6 +38,7 @@ public class Wiznium
 
         ModItems.regiter(modEventBus);
         ModBlocks.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
 
         // Register the item to a creative tab

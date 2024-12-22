@@ -1,0 +1,40 @@
+package net.stevenvbr.wiznium.item;
+
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.RegistryObject;
+import net.stevenvbr.wiznium.Wiznium;
+import net.stevenvbr.wiznium.block.ModBlocks;
+
+public class ModCreativeModeTabs {
+
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Wiznium.MOD_ID);
+
+    public static final RegistryObject<CreativeModeTab> WIZNIUM_ITEMS_TAB = CREATIVE_MODE_TABS.register("wiznium_items_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.WIZNIUM_INGOT.get()))
+                    .title(Component.translatable("creativetab.wiznium.wiznium_items"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.WIZNIUM_INGOT.get());
+                        output.accept(ModItems.AZIUM_INGOT.get());
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> WIZNIUM_BLOCKS_TAB = CREATIVE_MODE_TABS.register("wiznium_blocks_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.WIZNIUM_ORE.get()))
+                    .withTabsBefore(WIZNIUM_ITEMS_TAB.getId())
+                    .title(Component.translatable("creativetab.wiznium.wiznium_blocks"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.WIZNIUM_ORE.get());
+                        output.accept(ModBlocks.AZIUM_ORE.get());
+                    }).build());
+
+
+
+    public static void register (IEventBus eventBus) {
+        CREATIVE_MODE_TABS.register(eventBus);
+    }
+}

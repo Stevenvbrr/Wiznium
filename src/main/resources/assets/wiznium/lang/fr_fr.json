@@ -3,5 +3,8 @@
   "item.wiznium.wiznium_ingot": "Lingot de wiznium",
 
   "block.wiznium.azium_ore": "Minerai d'azium",
-  "block.wiznium.wiznium_ore": "Minerai de wiznium"
+  "block.wiznium.wiznium_ore": "Minerai de wiznium",
+
+  "creativetab.wiznium.wiznium_blocks": "Bloc",
+  "creativetab.wiznium.wiznium_items": "Items"
 }
