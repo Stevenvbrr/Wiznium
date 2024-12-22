@@ -56,13 +56,11 @@ public class Wiznium
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
     if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-        event.accept(ModItems.AZIUM_INGOT);
-        event.accept(ModItems.WIZNIUM_INGOT);
+
         }
 
     if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
-        event.accept(ModBlocks.AZIUM_ORE);
-        event.accept(ModBlocks.WIZNIUM_ORE);
+
     }
     }
 

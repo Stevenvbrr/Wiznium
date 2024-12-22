@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.WIZNIUM_INGOT.get());
                         output.accept(ModItems.AZIUM_INGOT.get());
+                        output.accept(ModItems.WIZNIUM_STICK.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> WIZNIUM_BLOCKS_TAB = CREATIVE_MODE_TABS.register("wiznium_blocks_tab",
