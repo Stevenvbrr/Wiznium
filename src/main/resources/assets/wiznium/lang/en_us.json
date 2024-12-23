@@ -4,6 +4,8 @@
   "item.wiznium.wiznium_ingot": "Wiznium Ingot",
   "item.wiznium.wiznium_stick": "Wiznium Stick",
   "item.wiznium.azium_stick": "Azium Stick",
+  "item.wiznium.zyphium_stick": "Zyphium Stick",
+  "item.wiznium.zyphium_ingot": "Zyphium Ingot",
 
   //tools
   "item.wiznium.azium_sword": "Azium Sword",
@@ -11,10 +13,12 @@
   "item.wiznium.azium_pickaxe": "Azium Pickaxe",
   "item.wiznium.azium_axe": "Azium Axe",
   "item.wiznium.azium_hoe": "Azium Hoe",
+  "item.wiznium.zyphium_pickaxe": "Zyphium Pickaxe",
 
   //blocks
   "block.wiznium.azium_ore": "Azium Ore",
   "block.wiznium.wiznium_ore": "Wiznium Ore",
+  "block.wiznium.zyphium_ore": "Zyphium Ore",
 
   //creative tabs
   "creativetab.wiznium.wiznium_blocks": "Block",

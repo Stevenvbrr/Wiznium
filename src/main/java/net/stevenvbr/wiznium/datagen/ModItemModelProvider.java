@@ -23,12 +23,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.WIZNIUM_STICK.get());
         basicItem(ModItems.AZIUM_STICK.get());
         basicItem(ModItems.ZYPHIUM_INGOT.get());
+        basicItem(ModItems.ZYPHIUM_STICK.get());
 
         handheldItem(ModItems.AZIUM_SWORD);
         handheldItem(ModItems.AZIUM_PICKAXE);
         handheldItem(ModItems.AZIUM_SHOVEL);
         handheldItem(ModItems.AZIUM_AXE);
         handheldItem(ModItems.AZIUM_HOE);
+        handheldItem(ModItems.ZYPHIUM_PICKAXE);
 
 
 

@@ -16,6 +16,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> AZIUM_STICK = ITEMS.register("azium_stick",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ZYPHIUM_STICK = ITEMS.register("zyphium_stick",
+            () -> new Item(new Item.Properties()));
 
 
     public static final RegistryObject<Item> AZIUM_INGOT = ITEMS.register("azium_ingot",
@@ -27,6 +29,7 @@ public class ModItems {
     public static final RegistryObject<Item> ZYPHIUM_INGOT = ITEMS.register("zyphium_ingot",
             () -> new Item(new Item.Properties()));
 
+    // Azium Tool
     public static final RegistryObject<Item> AZIUM_SWORD = ITEMS.register("azium_sword",
             () -> new SwordItem(ModToolTiers.AZIUM, new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTiers.AZIUM,5,-2.4f))));
@@ -42,6 +45,12 @@ public class ModItems {
     public static final RegistryObject<Item> AZIUM_HOE = ITEMS.register("azium_hoe",
             () -> new HoeItem(ModToolTiers.AZIUM, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.AZIUM,-3,1f))));
+    // Zyphium Tool
+
+    public static final RegistryObject<Item> ZYPHIUM_PICKAXE = ITEMS.register("zyphium_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ZYPHIUM, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ZYPHIUM, 1.5F, -3f))));
+
 
 
     public static void regiter(IEventBus eventBus){

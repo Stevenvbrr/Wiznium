@@ -3,7 +3,10 @@
   "item.wiznium.azium_ingot": "Lingot d'azium",
   "item.wiznium.wiznium_ingot": "Lingot de wiznium",
   "item.wiznium.wiznium_stick": "Bâton de wiznium",
-  "item.wiznium.azium_stick": "Bâton de Azium",
+  "item.wiznium.azium_stick": "Bâton de azium",
+  "item.wiznium.zyphium_stick": "Bâton de zyphium",
+  "item.wiznium.zyphium_ingot": "Lingot de zyphium",
+
   //outils
 
   "item.wiznium.azium_sword": "Épée en azium",
@@ -11,10 +14,12 @@
   "item.wiznium.azium_pickaxe": "Pioche en azium",
   "item.wiznium.azium_axe": "Hache en azium",
   "item.wiznium.azium_hoe": "Houe en azium",
+  "item.wiznium.zyphium_pickaxe": "Pioche en zyphium",
 
   //bloc
   "block.wiznium.azium_ore": "Minerai d'azium",
   "block.wiznium.wiznium_ore": "Minerai de wiznium",
+  "block.wiznium.zyphium_ore": "Minerai de zyphium",
 
   //creative tab
   "creativetab.wiznium.wiznium_blocks": "Bloc",

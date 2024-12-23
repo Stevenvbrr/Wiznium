@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WIZNIUM_STICK.get());
                         output.accept(ModItems.AZIUM_STICK.get());
                         output.accept(ModItems.ZYPHIUM_INGOT.get());
+                        output.accept(ModItems.ZYPHIUM_STICK.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> WIZNIUM_BLOCKS_TAB = CREATIVE_MODE_TABS.register("wiznium_blocks_tab",
@@ -47,6 +48,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AZIUM_SHOVEL.get());
                         output.accept(ModItems.AZIUM_AXE.get());
                         output.accept(ModItems.AZIUM_HOE.get());
+                        output.accept(ModItems.ZYPHIUM_PICKAXE.get());
                     }).build());
 
 
