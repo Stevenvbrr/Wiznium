@@ -1,4 +1,4 @@
-// 1.21	2024-12-23T15:22:08.2654879	Recipes
+// 1.21	2024-12-23T17:18:03.3263094	Recipes
 cda7bb0050d056c0cc991f22a94aebdf7a8e4b26 data/wiznium/advancement/recipes/misc/azium_axe.json
 522108e7b610660743d51392f2e79b3be7caa8a2 data/wiznium/advancement/recipes/misc/azium_hoe.json
 291ab8d93b3bf5b12a0415452c986c00df0f4d11 data/wiznium/advancement/recipes/misc/azium_ingot_from_blasting_azium_ore.json
@@ -10,6 +10,8 @@ f25968d07f1df6b3ff946a3e149047805cc6b521 data/wiznium/advancement/recipes/misc/a
 24f4a80b044676373ddd138cd8bd1a85c7669a83 data/wiznium/advancement/recipes/misc/wiznium_ingot_from_blasting_wiznium_ore.json
 a820aacc5e5e7a8d40797fc2bdb709038446aa6e data/wiznium/advancement/recipes/misc/wiznium_ingot_from_smelting_wiznium_ore.json
 5d5234c26f6af23f93be56a015efdfc8c7b391e9 data/wiznium/advancement/recipes/misc/wiznium_stick.json
+7d613c097d5e51c6e61b1e486d3d825a0ed2b773 data/wiznium/advancement/recipes/misc/zyphium_ingot_from_blasting_zyphium_ore.json
+e60c18485a640172bcdedb0614eb26f6d23aa8e6 data/wiznium/advancement/recipes/misc/zyphium_ingot_from_smelting_zyphium_ore.json
 403608b4e543182a8012330d63d42e847cfbb94a data/wiznium/recipe/azium_axe.json
 30105c34bbd45674f3da57082122e8f2b2892389 data/wiznium/recipe/azium_hoe.json
 3c38db422eaa2b611b7aa8ffdf07f1d2d9f1168c data/wiznium/recipe/azium_ingot_from_blasting_azium_ore.json
@@ -21,3 +23,5 @@ a820aacc5e5e7a8d40797fc2bdb709038446aa6e data/wiznium/advancement/recipes/misc/w
 00e4aab83878f8ac380e9bbe7fe50f250b10909d data/wiznium/recipe/wiznium_ingot_from_blasting_wiznium_ore.json
 1006cbdd0e7ef9ae31df9b3b290bfc2e410c7be5 data/wiznium/recipe/wiznium_ingot_from_smelting_wiznium_ore.json
 f76128148da798fa83b514a47e3058ed452b9657 data/wiznium/recipe/wiznium_stick.json
+2f044f8cdf7dbbf2e769b39584d9f900ad2d1da8 data/wiznium/recipe/zyphium_ingot_from_blasting_zyphium_ore.json
+79c29d96442ea72942ccae27be577f38ed3520bb data/wiznium/recipe/zyphium_ingot_from_smelting_zyphium_ore.json

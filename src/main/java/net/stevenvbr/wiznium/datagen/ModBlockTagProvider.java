@@ -22,17 +22,21 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.AZIUM_ORE.get())
-                .add(ModBlocks.WIZNIUM_ORE.get());
+                .add(ModBlocks.WIZNIUM_ORE.get())
+                .add(ModBlocks.ZYPHIUM_ORE.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.AZIUM_ORE.get());
 
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.WIZNIUM_ORE.get());
+                .add(ModBlocks.WIZNIUM_ORE.get())
+                .add(ModBlocks.ZYPHIUM_ORE.get());
 
         tag(ModTags.Blocks.NEEDS_AZIUM_TOOL)
                 .addTags(BlockTags.NEEDS_DIAMOND_TOOL);
+
+
 
     }
 }

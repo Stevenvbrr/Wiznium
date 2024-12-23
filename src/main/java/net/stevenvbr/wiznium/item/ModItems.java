@@ -24,6 +24,9 @@ public class ModItems {
     public static final RegistryObject<Item> WIZNIUM_INGOT = ITEMS.register("wiznium_ingot",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ZYPHIUM_INGOT = ITEMS.register("zyphium_ingot",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> AZIUM_SWORD = ITEMS.register("azium_sword",
             () -> new SwordItem(ModToolTiers.AZIUM, new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTiers.AZIUM,5,-2.4f))));

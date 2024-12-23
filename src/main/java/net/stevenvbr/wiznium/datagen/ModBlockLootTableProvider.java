@@ -18,6 +18,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.WIZNIUM_ORE.get());
         dropSelf(ModBlocks.AZIUM_ORE.get());
+        dropSelf(ModBlocks.ZYPHIUM_ORE.get());
 
 
     }

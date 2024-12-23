@@ -1,27 +1,27 @@
-[23déc.2024 15:22:00.891] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\b2wst\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, wiznium, --all, --output, D:\WizniumMod\src\generated\resources, --existing, D:\WizniumMod\src\main\resources]
-[23déc.2024 15:22:00.894] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.5+9-LTS-239
-[23déc.2024 15:22:00.895] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.5 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[23déc.2024 15:22:00.981] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[23déc.2024 15:22:01.079] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/b2wst/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[23déc.2024 15:22:01.808] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[23déc.2024 15:22:02.593] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\b2wst\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, wiznium, --all, --output, D:\WizniumMod\src\generated\resources, --existing, D:\WizniumMod\src\main\resources]
-[23déc.2024 15:22:07.125] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
-[23déc.2024 15:22:07.125] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
-[23déc.2024 15:22:07.150] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[23déc.2024 15:22:07.680] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [wiznium]
-[23déc.2024 15:22:07.744] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/b2wst/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[23déc.2024 15:22:07.744] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/b2wst/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[23déc.2024 15:22:07.971] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[23déc.2024 15:22:08.140] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 167 ms
-[23déc.2024 15:22:08.140] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[23déc.2024 15:22:08.173] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 33 ms
-[23déc.2024 15:22:08.173] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id wiznium
-[23déc.2024 15:22:08.188] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id wiznium finished after 14 ms
-[23déc.2024 15:22:08.188] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id wiznium
-[23déc.2024 15:22:08.188] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id wiznium finished after 0 ms
-[23déc.2024 15:22:08.189] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: wiznium
-[23déc.2024 15:22:08.195] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: wiznium finished after 6 ms
-[23déc.2024 15:22:08.195] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: wiznium
-[23déc.2024 15:22:08.265] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: wiznium finished after 68 ms
-[23déc.2024 15:22:08.265] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 295 ms
-[23déc.2024 15:22:08.271] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 43, old count: 40, new count: 44, removed stale: 0, written: 3
+[23déc.2024 17:24:35.981] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\b2wst\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, wiznium, --all, --output, D:\WizniumMod\src\generated\resources, --existing, D:\WizniumMod\src\main\resources]
+[23déc.2024 17:24:35.983] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.5+9-LTS-239
+[23déc.2024 17:24:35.985] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.5 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[23déc.2024 17:24:36.097] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[23déc.2024 17:24:36.190] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/b2wst/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[23déc.2024 17:24:36.964] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[23déc.2024 17:24:37.748] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\b2wst\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, wiznium, --all, --output, D:\WizniumMod\src\generated\resources, --existing, D:\WizniumMod\src\main\resources]
+[23déc.2024 17:24:42.622] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[23déc.2024 17:24:42.623] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[23déc.2024 17:24:42.651] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[23déc.2024 17:24:43.117] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [wiznium]
+[23déc.2024 17:24:43.186] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/b2wst/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[23déc.2024 17:24:43.187] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/b2wst/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[23déc.2024 17:24:43.369] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[23déc.2024 17:24:43.542] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 171 ms
+[23déc.2024 17:24:43.542] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[23déc.2024 17:24:43.583] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 41 ms
+[23déc.2024 17:24:43.584] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id wiznium
+[23déc.2024 17:24:43.604] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id wiznium finished after 20 ms
+[23déc.2024 17:24:43.605] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id wiznium
+[23déc.2024 17:24:43.608] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id wiznium finished after 3 ms
+[23déc.2024 17:24:43.609] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: wiznium
+[23déc.2024 17:24:43.618] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: wiznium finished after 9 ms
+[23déc.2024 17:24:43.618] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: wiznium
+[23déc.2024 17:24:43.712] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: wiznium finished after 93 ms
+[23déc.2024 17:24:43.713] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 344 ms
+[23déc.2024 17:24:43.717] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 52, old count: 52, new count: 53, removed stale: 0, written: 3

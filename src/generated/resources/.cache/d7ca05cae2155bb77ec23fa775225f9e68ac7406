@@ -1,5 +1,5 @@
-// 1.21	2024-12-23T12:26:39.4678736	Tags for minecraft:block mod id wiznium
-7b719981eabc6171cdaf318624f70c9fe54c1cd7 data/minecraft/tags/block/mineable/pickaxe.json
-0125a50094c90ec7b29554c03747d6779800b751 data/minecraft/tags/block/needs_diamond_tool.json
+// 1.21	2024-12-23T17:24:43.7137119	Tags for minecraft:block mod id wiznium
+e17933fd7952c7514941fe5604a389c1267261cf data/minecraft/tags/block/mineable/pickaxe.json
+ac3b455a36378feabe923f6aa4d765d798d2a342 data/minecraft/tags/block/needs_diamond_tool.json
 c6b46b86e523584d785f2d5142cccc31760fa857 data/minecraft/tags/block/needs_iron_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data/wiznium/tags/block/needs_azium_tool.json

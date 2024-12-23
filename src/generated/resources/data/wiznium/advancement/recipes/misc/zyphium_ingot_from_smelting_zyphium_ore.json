@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wiznium:zyphium_ingot_from_smelting_zyphium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_zyphium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wiznium:zyphium_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_zyphium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wiznium:zyphium_ingot_from_smelting_zyphium_ore"
+    ]
+  }
+}

@@ -24,6 +24,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildRecipes(RecipeOutput pRecipeOutput) {
         List<ItemLike> WIZNIUM_SMELTABLES = List.of(ModBlocks.WIZNIUM_ORE.get());
         List<ItemLike> AZIUM_SMELTABLES = List.of(ModBlocks.AZIUM_ORE.get());
+        List<ItemLike> ZYPHIUM_SMELTABLES = List.of(ModBlocks.ZYPHIUM_ORE.get());
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WIZNIUM_STICK.get(), 2)
                 .pattern("A")
@@ -119,7 +120,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreBlasting(pRecipeOutput, WIZNIUM_SMELTABLES, RecipeCategory.MISC, ModItems.WIZNIUM_INGOT.get(),0.5f, 100,"wiznium");
         oreSmelting(pRecipeOutput, AZIUM_SMELTABLES, RecipeCategory.MISC, ModItems.AZIUM_INGOT.get(),0.5f, 200,"azium");
         oreBlasting(pRecipeOutput, AZIUM_SMELTABLES, RecipeCategory.MISC, ModItems.AZIUM_INGOT.get(),0.5f, 100,"azium");
-
+        oreSmelting(pRecipeOutput, ZYPHIUM_SMELTABLES, RecipeCategory.MISC, ModItems.ZYPHIUM_INGOT.get(),0.5f, 200,"zyphium");
+        oreBlasting(pRecipeOutput, ZYPHIUM_SMELTABLES, RecipeCategory.MISC, ModItems.ZYPHIUM_INGOT.get(),0.5f, 100,"zyphium");
     }
 
 
