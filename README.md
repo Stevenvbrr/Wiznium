@@ -1,5 +1,10 @@
                                             MISE A JOUR DU MOD : 
-                                                         
+
+17:26 23/12/2024 :
+- Ajout du nouveau minerai "Zyphium"
+- Ajout du lingot de Zyphium
+- Ajout de la possibilité de faire fondre le Zyphium
+------------------------------------------------------------------------------
 15:28 23/12/2024 :
 - Ajout d'outils en Azium :
   * Houe en Azium
