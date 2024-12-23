@@ -61,6 +61,60 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('*', ModItems.AZIUM_STICK.get())
                 .unlockedBy(getHasName(ModItems.AZIUM_INGOT.get()), has(ModItems.AZIUM_STICK.get())).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AZIUM_AXE.get())
+                .pattern("AA ")
+                .pattern("A* ")
+                .pattern(" * ")
+                .define('A', ModItems.AZIUM_INGOT.get())
+                .define('*', ModItems.AZIUM_STICK.get())
+                .unlockedBy(getHasName(ModItems.AZIUM_INGOT.get()), has(ModItems.AZIUM_STICK.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AZIUM_HOE.get())
+                .pattern("AA ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .define('A', ModItems.AZIUM_INGOT.get())
+                .define('*', ModItems.AZIUM_STICK.get())
+                .unlockedBy(getHasName(ModItems.AZIUM_INGOT.get()), has(ModItems.AZIUM_STICK.get())).save(pRecipeOutput);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //Smelting + Blasting
         oreSmelting(pRecipeOutput, WIZNIUM_SMELTABLES, RecipeCategory.MISC, ModItems.WIZNIUM_INGOT.get(),0.5f, 200,"wiznium");
         oreBlasting(pRecipeOutput, WIZNIUM_SMELTABLES, RecipeCategory.MISC, ModItems.WIZNIUM_INGOT.get(),0.5f, 100,"wiznium");
         oreSmelting(pRecipeOutput, AZIUM_SMELTABLES, RecipeCategory.MISC, ModItems.AZIUM_INGOT.get(),0.5f, 200,"azium");

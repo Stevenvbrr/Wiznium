@@ -36,13 +36,15 @@ public class ModCreativeModeTabs {
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> WIZNIUM_TOOLS_TAB = CREATIVE_MODE_TABS.register("wiznium_tools_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.WIZNIUM_STICK.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AZIUM_SWORD.get()))
                     .withTabsBefore(WIZNIUM_BLOCKS_TAB.getId())
                     .title(Component.translatable("creativetab.wiznium.wiznium_tools"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.AZIUM_SWORD.get());
                         output.accept(ModItems.AZIUM_PICKAXE.get());
                         output.accept(ModItems.AZIUM_SHOVEL.get());
+                        output.accept(ModItems.AZIUM_AXE.get());
+                        output.accept(ModItems.AZIUM_HOE.get());
                     }).build());
 
 

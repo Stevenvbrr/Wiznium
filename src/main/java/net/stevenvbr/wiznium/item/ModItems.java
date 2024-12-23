@@ -1,9 +1,6 @@
 package net.stevenvbr.wiznium.item;
 
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ShovelItem;
-import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -36,6 +33,12 @@ public class ModItems {
     public static final RegistryObject<Item> AZIUM_SHOVEL = ITEMS.register("azium_shovel",
             () -> new ShovelItem(ModToolTiers.AZIUM, new Item.Properties()
                     .attributes(ShovelItem.createAttributes(ModToolTiers.AZIUM,2,-2.8f))));
+    public static final RegistryObject<Item> AZIUM_AXE = ITEMS.register("azium_axe",
+            () -> new AxeItem(ModToolTiers.AZIUM, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.AZIUM,7,-3.2f))));
+    public static final RegistryObject<Item> AZIUM_HOE = ITEMS.register("azium_hoe",
+            () -> new HoeItem(ModToolTiers.AZIUM, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.AZIUM,-3,1f))));
 
 
     public static void regiter(IEventBus eventBus){

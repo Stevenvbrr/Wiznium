@@ -6,9 +6,11 @@
   "item.wiznium.azium_stick": "Bâton de Azium",
   //outils
 
-  "item.wiznium.azium_sword": "Épée en Azium",
-  "item.wiznium.azium_shovel": "Pelle en Azium",
-  "item.wiznium.azium_pickaxe": "Pioche en Azium",
+  "item.wiznium.azium_sword": "Épée en azium",
+  "item.wiznium.azium_shovel": "Pelle en azium",
+  "item.wiznium.azium_pickaxe": "Pioche en azium",
+  "item.wiznium.azium_axe": "Hache en azium",
+  "item.wiznium.azium_hoe": "Houe en azium",
 
   //bloc
   "block.wiznium.azium_ore": "Minerai d'azium",

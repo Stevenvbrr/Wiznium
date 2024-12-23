@@ -26,6 +26,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.AZIUM_SWORD);
         handheldItem(ModItems.AZIUM_PICKAXE);
         handheldItem(ModItems.AZIUM_SHOVEL);
+        handheldItem(ModItems.AZIUM_AXE);
+        handheldItem(ModItems.AZIUM_HOE);
+
 
 
     }
