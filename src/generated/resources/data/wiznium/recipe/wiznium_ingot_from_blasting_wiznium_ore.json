@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "group": "wiznium",
+  "ingredient": {
+    "item": "wiznium:wiznium_ore"
+  },
+  "result": {
+    "id": "wiznium:wiznium_ingot"
+  }
+}

@@ -1,0 +1,4 @@
+// 1.21	2024-12-23T01:11:31.2859678	Tags for minecraft:block mod id wiznium
+7b719981eabc6171cdaf318624f70c9fe54c1cd7 data/minecraft/tags/block/mineable/pickaxe.json
+0125a50094c90ec7b29554c03747d6779800b751 data/minecraft/tags/block/needs_diamond_tool.json
+c6b46b86e523584d785f2d5142cccc31760fa857 data/minecraft/tags/block/needs_iron_tool.json

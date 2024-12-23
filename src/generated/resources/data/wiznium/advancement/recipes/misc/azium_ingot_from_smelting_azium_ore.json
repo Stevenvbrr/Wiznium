@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_azium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wiznium:azium_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wiznium:azium_ingot_from_smelting_azium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_azium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wiznium:azium_ingot_from_smelting_azium_ore"
+    ]
+  }
+}

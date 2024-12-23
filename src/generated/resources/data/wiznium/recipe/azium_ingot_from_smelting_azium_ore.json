@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "azium",
+  "ingredient": {
+    "item": "wiznium:azium_ore"
+  },
+  "result": {
+    "id": "wiznium:azium_ingot"
+  }
+}
