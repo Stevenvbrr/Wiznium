@@ -1,3 +1,12 @@
+15:28 23/12/2024 :
+- Ajout d'outils en Azium :
+  * Houe en Azium
+  * Hache en Azium
+- Ajout des textures en Azium pour la houe et la hache
+- Nouveau craft pour les outils
+- Traduction des nouveaux outils en FR & EN
+- Modification temporaire de l'icon de la CreativeBar "Outils"
+------------------------------------------------------------------------------
 12h37 23/12/2024 :
 - Ajout de la "Creative Tab" : Outils/Tools
 - Ajout des outils :
