@@ -1,11 +1,21 @@
 {
+  //item
   "item.wiznium.azium_ingot": "Lingot d'azium",
   "item.wiznium.wiznium_ingot": "Lingot de wiznium",
-  "item.wiznium_wiznium_stick": "Bâton de wiznium",
+  "item.wiznium.wiznium_stick": "Bâton de wiznium",
+  "item.wiznium.azium_stick": "Bâton de Azium",
+  //outils
 
+  "item.wiznium.azium_sword": "Épée en Azium",
+  "item.wiznium.azium_shovel": "Pelle en Azium",
+  "item.wiznium.azium_pickaxe": "Pioche en Azium",
+
+  //bloc
   "block.wiznium.azium_ore": "Minerai d'azium",
   "block.wiznium.wiznium_ore": "Minerai de wiznium",
 
+  //creative tab
   "creativetab.wiznium.wiznium_blocks": "Bloc",
-  "creativetab.wiznium.wiznium_items": "Items"
+  "creativetab.wiznium.wiznium_items": "Items",
+  "creativetab.wiznium.wiznium_tools": "Outils"
 }

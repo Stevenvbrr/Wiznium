@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "*": {
+      "item": "wiznium:azium_stick"
+    },
+    "A": {
+      "item": "wiznium:azium_ingot"
+    }
+  },
+  "pattern": [
+    " A ",
+    " * ",
+    " * "
+  ],
+  "result": {
+    "count": 1,
+    "id": "wiznium:azium_shovel"
+  }
+}

@@ -8,6 +8,7 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.stevenvbr.wiznium.Wiznium;
 import net.stevenvbr.wiznium.block.ModBlocks;
+import net.stevenvbr.wiznium.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -29,6 +30,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.WIZNIUM_ORE.get());
+
+        tag(ModTags.Blocks.NEEDS_AZIUM_TOOL)
+                .addTags(BlockTags.NEEDS_DIAMOND_TOOL);
 
     }
 }

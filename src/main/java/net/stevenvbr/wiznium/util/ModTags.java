@@ -10,6 +10,8 @@ import net.stevenvbr.wiznium.Wiznium;
 
 public class ModTags {
     public static class Blocks {
+        public static final TagKey<Block> NEEDS_AZIUM_TOOL = createTag("needs_azium_tool");
+        public static final TagKey<Block> INCORRECT_FOR_AZIUM_TOOL = createTag("incorrect_for_azium_tool");
 
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(Wiznium.MOD_ID, name));

@@ -3,6 +3,7 @@ package net.stevenvbr.wiznium.item;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WIZNIUM_INGOT.get());
                         output.accept(ModItems.AZIUM_INGOT.get());
                         output.accept(ModItems.WIZNIUM_STICK.get());
+                        output.accept(ModItems.AZIUM_STICK.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> WIZNIUM_BLOCKS_TAB = CREATIVE_MODE_TABS.register("wiznium_blocks_tab",
@@ -31,6 +33,16 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.WIZNIUM_ORE.get());
                         output.accept(ModBlocks.AZIUM_ORE.get());
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> WIZNIUM_TOOLS_TAB = CREATIVE_MODE_TABS.register("wiznium_tools_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.WIZNIUM_STICK.get()))
+                    .withTabsBefore(WIZNIUM_BLOCKS_TAB.getId())
+                    .title(Component.translatable("creativetab.wiznium.wiznium_tools"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.AZIUM_SWORD.get());
+                        output.accept(ModItems.AZIUM_PICKAXE.get());
+                        output.accept(ModItems.AZIUM_SHOVEL.get());
                     }).build());
 
 

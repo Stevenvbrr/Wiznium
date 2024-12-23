@@ -3,6 +3,8 @@ package net.stevenvbr.wiznium.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.references.Items;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
@@ -29,12 +31,150 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.WIZNIUM_INGOT.get())
                 .unlockedBy(getHasName(ModItems.WIZNIUM_INGOT.get()), has(ModItems.WIZNIUM_INGOT.get())).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AZIUM_STICK.get(), 2)
+                .pattern("A")
+                .pattern("A")
+                .define('A', ModItems.AZIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.AZIUM_INGOT.get()), has(ModItems.AZIUM_INGOT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AZIUM_PICKAXE.get())
+                .pattern("AAA")
+                .pattern(" * ")
+                .pattern(" * ")
+                .define('A', ModItems.AZIUM_INGOT.get())
+                .define('*', ModItems.AZIUM_STICK.get())
+                .unlockedBy(getHasName(ModItems.AZIUM_INGOT.get()), has(ModItems.AZIUM_STICK.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AZIUM_SWORD.get())
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" * ")
+                .define('A', ModItems.AZIUM_INGOT.get())
+                .define('*', ModItems.AZIUM_STICK.get())
+                .unlockedBy(getHasName(ModItems.AZIUM_INGOT.get()), has(ModItems.AZIUM_STICK.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AZIUM_SHOVEL.get())
+                .pattern(" A ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .define('A', ModItems.AZIUM_INGOT.get())
+                .define('*', ModItems.AZIUM_STICK.get())
+                .unlockedBy(getHasName(ModItems.AZIUM_INGOT.get()), has(ModItems.AZIUM_STICK.get())).save(pRecipeOutput);
+
         oreSmelting(pRecipeOutput, WIZNIUM_SMELTABLES, RecipeCategory.MISC, ModItems.WIZNIUM_INGOT.get(),0.5f, 200,"wiznium");
         oreBlasting(pRecipeOutput, WIZNIUM_SMELTABLES, RecipeCategory.MISC, ModItems.WIZNIUM_INGOT.get(),0.5f, 100,"wiznium");
         oreSmelting(pRecipeOutput, AZIUM_SMELTABLES, RecipeCategory.MISC, ModItems.AZIUM_INGOT.get(),0.5f, 200,"azium");
         oreBlasting(pRecipeOutput, AZIUM_SMELTABLES, RecipeCategory.MISC, ModItems.AZIUM_INGOT.get(),0.5f, 100,"azium");
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     protected static void oreSmelting(
             RecipeOutput pRecipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup

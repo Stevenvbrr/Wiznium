@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_azium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "wiznium:azium_stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wiznium:azium_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_azium_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wiznium:azium_pickaxe"
+    ]
+  }
+}

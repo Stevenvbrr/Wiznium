@@ -1,4 +1,8 @@
-// 1.21	2024-12-23T01:43:22.4043556	Item Models: wiznium
+// 1.21	2024-12-23T12:26:39.4678736	Item Models: wiznium
 f8bed8298b39de589403a820e090d78c97bfcf0d assets/wiznium/models/item/azium_ingot.json
+5f8d9f0f075470022b5991680ade13465aba8699 assets/wiznium/models/item/azium_pickaxe.json
+743fa667275c7029cf74e57d5aed5f609b6c0258 assets/wiznium/models/item/azium_shovel.json
+91207d2df2037080c6b10cd1395f5811df5754f3 assets/wiznium/models/item/azium_stick.json
+ded4a272669b198d471485810ff3ead8af553ac6 assets/wiznium/models/item/azium_sword.json
 4281d996fdab66ac3451c138a911729a2c4e6c15 assets/wiznium/models/item/wiznium_ingot.json
 f317b573f690095467b3abcd148a01c2da1dd23a assets/wiznium/models/item/wiznium_stick.json
