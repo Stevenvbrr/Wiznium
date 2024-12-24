@@ -1,4 +1,8 @@
                                             MISE A JOUR DU MOD : 
+16:55 24/12/2024 :
+- Ajout du Hammer en wiznium
+- Ajout du craft 
+------------------------------------------------------------------------------
 15:09 24/12/2024 :
 - Ajout des outils :
   * Epée en zyphium
