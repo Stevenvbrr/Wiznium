@@ -71,6 +71,37 @@ public class ModItems {
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.ZYPHIUM, 6.5F, -3.5f))));
 
 
+    // Armor
+
+    public static final RegistryObject<Item> AZIUM_HELMET = ITEMS.register("azium_helmet",
+            () -> new ArmorItem(ModArmorMaterials.AZIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(37))));
+    public static final RegistryObject<Item> AZIUM_CHESTPLATE = ITEMS.register("azium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.AZIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(37))));
+    public static final RegistryObject<Item> AZIUM_LEGGINGS = ITEMS.register("azium_leggings",
+            () -> new ArmorItem(ModArmorMaterials.AZIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(37))));
+    public static final RegistryObject<Item> AZIUM_BOOTS = ITEMS.register("azium_boots",
+            () -> new ArmorItem(ModArmorMaterials.AZIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(37))));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     public static void regiter(IEventBus eventBus){
         ITEMS.register(eventBus);

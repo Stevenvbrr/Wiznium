@@ -20,12 +20,12 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.WIZNIUM_INGOT.get()))
                     .title(Component.translatable("creativetab.wiznium.wiznium_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.WIZNIUM_INGOT.get());
                         output.accept(ModItems.AZIUM_INGOT.get());
-                        output.accept(ModItems.WIZNIUM_STICK.get());
-                        output.accept(ModItems.AZIUM_STICK.get());
                         output.accept(ModItems.ZYPHIUM_INGOT.get());
+                        output.accept(ModItems.WIZNIUM_INGOT.get());
+                        output.accept(ModItems.AZIUM_STICK.get());
                         output.accept(ModItems.ZYPHIUM_STICK.get());
+                        output.accept(ModItems.WIZNIUM_STICK.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> WIZNIUM_BLOCKS_TAB = CREATIVE_MODE_TABS.register("wiznium_blocks_tab",
@@ -54,6 +54,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ZYPHIUM_SHOVEL.get());
                         output.accept(ModItems.ZYPHIUM_HOE.get());
                         output.accept(ModItems.WIZNIUM_HAMMER.get());
+                        output.accept(ModItems.AZIUM_HELMET.get());
+                        output.accept(ModItems.AZIUM_CHESTPLATE.get());
+                        output.accept(ModItems.AZIUM_LEGGINGS.get());
+                        output.accept(ModItems.AZIUM_BOOTS.get());
 
                     }).build());
 
