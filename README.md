@@ -1,4 +1,12 @@
                                             MISE A JOUR DU MOD : 
+15:09 24/12/2024 :
+- Ajout des outils :
+  * Epée en zyphium
+  * Hache en zyphium
+  * Pelle en zyphium
+  * Houe en zyphium
+- Ajout de la possibilité d'enchanter les outils 
+------------------------------------------------------------------------------
 18:14 23/12/2024 :
 - Ajout du stick et de la pioche en "Zyphium"
 - Ajout des crafts
