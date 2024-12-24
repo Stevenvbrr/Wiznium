@@ -35,6 +35,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.ZYPHIUM_SWORD);
         handheldItem(ModItems.ZYPHIUM_SHOVEL);
         handheldItem(ModItems.ZYPHIUM_HOE);
+        handheldItem(ModItems.WIZNIUM_HAMMER);
 
 
 

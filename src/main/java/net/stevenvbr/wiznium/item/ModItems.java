@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.stevenvbr.wiznium.Wiznium;
+import net.stevenvbr.wiznium.item.custom.HammerItem;
 
 public class ModItems {
 
@@ -52,16 +53,22 @@ public class ModItems {
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.ZYPHIUM, 1.5F, -2.8f))));
     public static final RegistryObject<Item> ZYPHIUM_SHOVEL = ITEMS.register("zyphium_shovel",
             () -> new ShovelItem(ModToolTiers.ZYPHIUM, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ZYPHIUM, 0.5F, -3f))));
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.ZYPHIUM, 0.5F, -3f))));
     public static final RegistryObject<Item> ZYPHIUM_SWORD = ITEMS.register("zyphium_sword",
             () -> new SwordItem(ModToolTiers.ZYPHIUM, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ZYPHIUM, 5F, -2.4f))));
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ZYPHIUM, 5, -2.4f))));
     public static final RegistryObject<Item> ZYPHIUM_AXE = ITEMS.register("zyphium_axe",
             () -> new AxeItem(ModToolTiers.ZYPHIUM, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ZYPHIUM, 6.5F, -3.2f))));
+                    .attributes(AxeItem.createAttributes(ModToolTiers.ZYPHIUM, 6.5F, -3.2f))));
     public static final RegistryObject<Item> ZYPHIUM_HOE = ITEMS.register("zyphium_hoe",
             () -> new HoeItem(ModToolTiers.ZYPHIUM, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ZYPHIUM, -5F, 1f))));
+                    .attributes(HoeItem.createAttributes(ModToolTiers.ZYPHIUM, -5F, 1f))));
+
+    // Hammer
+
+    public static final RegistryObject<Item> WIZNIUM_HAMMER = ITEMS.register("wiznium_hammer",
+            () -> new HammerItem(ModToolTiers.ZYPHIUM, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ZYPHIUM, 6.5F, -3.5f))));
 
 
 

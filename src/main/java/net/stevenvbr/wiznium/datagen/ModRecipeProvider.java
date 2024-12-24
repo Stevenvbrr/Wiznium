@@ -26,18 +26,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         List<ItemLike> AZIUM_SMELTABLES = List.of(ModBlocks.AZIUM_ORE.get());
         List<ItemLike> ZYPHIUM_SMELTABLES = List.of(ModBlocks.ZYPHIUM_ORE.get());
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WIZNIUM_STICK.get(), 2)
-                .pattern("A")
-                .pattern("A")
-                .define('A', ModItems.WIZNIUM_INGOT.get())
-                .unlockedBy(getHasName(ModItems.WIZNIUM_INGOT.get()), has(ModItems.WIZNIUM_INGOT.get())).save(pRecipeOutput);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ZYPHIUM_STICK.get(), 2)
-                .pattern("A")
-                .pattern("A")
-                .define('A', ModItems.ZYPHIUM_INGOT.get())
-                .unlockedBy(getHasName(ModItems.ZYPHIUM_INGOT.get()), has(ModItems.ZYPHIUM_INGOT.get())).save(pRecipeOutput);
-
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AZIUM_STICK.get(), 2)
                 .pattern("A")
                 .pattern("A")
@@ -84,7 +72,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('*', ModItems.AZIUM_STICK.get())
                 .unlockedBy(getHasName(ModItems.AZIUM_INGOT.get()), has(ModItems.AZIUM_STICK.get())).save(pRecipeOutput);
 
-        // Zyphium Tool
+        // Zyphium Craft
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ZYPHIUM_STICK.get(), 2)
+                .pattern("A")
+                .pattern("A")
+                .define('A', ModItems.ZYPHIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.ZYPHIUM_INGOT.get()), has(ModItems.ZYPHIUM_INGOT.get())).save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ZYPHIUM_PICKAXE.get())
                 .pattern("AAA")
@@ -125,6 +119,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.ZYPHIUM_INGOT.get())
                 .define('*', ModItems.ZYPHIUM_STICK.get())
                 .unlockedBy(getHasName(ModItems.ZYPHIUM_INGOT.get()), has(ModItems.ZYPHIUM_STICK.get())).save(pRecipeOutput);
+
+        // Wiznium Craft
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WIZNIUM_STICK.get(), 2)
+                .pattern("A")
+                .pattern("A")
+                .define('A', ModItems.WIZNIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.WIZNIUM_INGOT.get()), has(ModItems.WIZNIUM_INGOT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WIZNIUM_HAMMER.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern(" * ")
+                .define('A', ModItems.WIZNIUM_INGOT.get())
+                .define('*', ModItems.WIZNIUM_STICK.get())
+                .unlockedBy(getHasName(ModItems.WIZNIUM_INGOT.get()), has(ModItems.WIZNIUM_STICK.get())).save(pRecipeOutput);
 
 
 

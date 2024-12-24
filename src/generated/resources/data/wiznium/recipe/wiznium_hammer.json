@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "*": {
+      "item": "wiznium:wiznium_stick"
+    },
+    "A": {
+      "item": "wiznium:wiznium_ingot"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "AAA",
+    " * "
+  ],
+  "result": {
+    "count": 1,
+    "id": "wiznium:wiznium_hammer"
+  }
+}

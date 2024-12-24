@@ -53,6 +53,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ZYPHIUM_SWORD.get());
                         output.accept(ModItems.ZYPHIUM_SHOVEL.get());
                         output.accept(ModItems.ZYPHIUM_HOE.get());
+                        output.accept(ModItems.WIZNIUM_HAMMER.get());
 
                     }).build());
 
