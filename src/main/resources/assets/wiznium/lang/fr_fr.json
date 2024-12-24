@@ -15,6 +15,10 @@
   "item.wiznium.azium_axe": "Hache en azium",
   "item.wiznium.azium_hoe": "Houe en azium",
   "item.wiznium.zyphium_pickaxe": "Pioche en zyphium",
+  "item.wiznium.zyphium_sword": "Épée en azium",
+  "item.wiznium.zyphium_shovel": "Pelle en azium",
+  "item.wiznium.zyphium_axe": "Hache en azium",
+  "item.wiznium.zyphium_hoe": "Houe en azium",
 
   //bloc
   "block.wiznium.azium_ore": "Minerai d'azium",

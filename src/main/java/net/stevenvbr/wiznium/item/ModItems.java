@@ -35,10 +35,10 @@ public class ModItems {
                     .attributes(SwordItem.createAttributes(ModToolTiers.AZIUM,5,-2.4f))));
     public static final RegistryObject<Item> AZIUM_PICKAXE = ITEMS.register("azium_pickaxe",
             () -> new PickaxeItem(ModToolTiers.AZIUM, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(ModToolTiers.AZIUM, 2.5F, -3f))));
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.AZIUM, 2.5F, -2.8f))));
     public static final RegistryObject<Item> AZIUM_SHOVEL = ITEMS.register("azium_shovel",
             () -> new ShovelItem(ModToolTiers.AZIUM, new Item.Properties()
-                    .attributes(ShovelItem.createAttributes(ModToolTiers.AZIUM,2,-2.8f))));
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.AZIUM,2,-3f))));
     public static final RegistryObject<Item> AZIUM_AXE = ITEMS.register("azium_axe",
             () -> new AxeItem(ModToolTiers.AZIUM, new Item.Properties()
                     .attributes(AxeItem.createAttributes(ModToolTiers.AZIUM,7,-3.2f))));
@@ -49,7 +49,19 @@ public class ModItems {
 
     public static final RegistryObject<Item> ZYPHIUM_PICKAXE = ITEMS.register("zyphium_pickaxe",
             () -> new PickaxeItem(ModToolTiers.ZYPHIUM, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ZYPHIUM, 1.5F, -3f))));
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ZYPHIUM, 1.5F, -2.8f))));
+    public static final RegistryObject<Item> ZYPHIUM_SHOVEL = ITEMS.register("zyphium_shovel",
+            () -> new ShovelItem(ModToolTiers.ZYPHIUM, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ZYPHIUM, 0.5F, -3f))));
+    public static final RegistryObject<Item> ZYPHIUM_SWORD = ITEMS.register("zyphium_sword",
+            () -> new SwordItem(ModToolTiers.ZYPHIUM, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ZYPHIUM, 5F, -2.4f))));
+    public static final RegistryObject<Item> ZYPHIUM_AXE = ITEMS.register("zyphium_axe",
+            () -> new AxeItem(ModToolTiers.ZYPHIUM, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ZYPHIUM, 6.5F, -3.2f))));
+    public static final RegistryObject<Item> ZYPHIUM_HOE = ITEMS.register("zyphium_hoe",
+            () -> new HoeItem(ModToolTiers.ZYPHIUM, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ZYPHIUM, -5F, 1f))));
 
 
 

@@ -1,4 +1,4 @@
-// 1.21	2024-12-23T17:43:11.3509834	Item Models: wiznium
+// 1.21	2024-12-24T13:41:04.2024772	Item Models: wiznium
 0f824c6ce7ef8aeb20c4a89e627c41c21eb254f8 assets/wiznium/models/item/azium_axe.json
 0f7963bf9434ccbe0e967615a837fd31cb475ba0 assets/wiznium/models/item/azium_hoe.json
 f8bed8298b39de589403a820e090d78c97bfcf0d assets/wiznium/models/item/azium_ingot.json
@@ -8,6 +8,10 @@ f8bed8298b39de589403a820e090d78c97bfcf0d assets/wiznium/models/item/azium_ingot.
 ded4a272669b198d471485810ff3ead8af553ac6 assets/wiznium/models/item/azium_sword.json
 4281d996fdab66ac3451c138a911729a2c4e6c15 assets/wiznium/models/item/wiznium_ingot.json
 f317b573f690095467b3abcd148a01c2da1dd23a assets/wiznium/models/item/wiznium_stick.json
+ce955713269dc9c631badcb38134e3da53098fc8 assets/wiznium/models/item/zyphium_axe.json
+6d320ceecfaffa1640bab579f1e2974994c39125 assets/wiznium/models/item/zyphium_hoe.json
 e0add247b94ae0610e902f49f9c530ab7839c378 assets/wiznium/models/item/zyphium_ingot.json
 5d8d5fc6345cce301ccfefacc7897811df20e103 assets/wiznium/models/item/zyphium_pickaxe.json
+9c1be8ffdb88e876d89a42fe928b65a618901045 assets/wiznium/models/item/zyphium_shovel.json
 e44b4595211eeaacc8e12c1867a391a371db8415 assets/wiznium/models/item/zyphium_stick.json
+6cdee23f5a799a4d16db0eabebe36a1aa02285ed assets/wiznium/models/item/zyphium_sword.json

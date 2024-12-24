@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "wiznium:azium_shovel"
+    "wiznium:azium_shovel",
+    "wiznium:zyphium_shovel"
   ]
 }

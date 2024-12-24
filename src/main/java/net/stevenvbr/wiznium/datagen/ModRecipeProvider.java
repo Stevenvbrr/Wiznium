@@ -84,6 +84,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('*', ModItems.AZIUM_STICK.get())
                 .unlockedBy(getHasName(ModItems.AZIUM_INGOT.get()), has(ModItems.AZIUM_STICK.get())).save(pRecipeOutput);
 
+        // Zyphium Tool
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ZYPHIUM_PICKAXE.get())
                 .pattern("AAA")
@@ -93,8 +94,37 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('*', ModItems.ZYPHIUM_STICK.get())
                 .unlockedBy(getHasName(ModItems.ZYPHIUM_INGOT.get()), has(ModItems.ZYPHIUM_STICK.get())).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ZYPHIUM_AXE.get())
+                .pattern("AA ")
+                .pattern("A* ")
+                .pattern(" * ")
+                .define('A', ModItems.ZYPHIUM_INGOT.get())
+                .define('*', ModItems.ZYPHIUM_STICK.get())
+                .unlockedBy(getHasName(ModItems.ZYPHIUM_INGOT.get()), has(ModItems.ZYPHIUM_STICK.get())).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ZYPHIUM_SHOVEL.get())
+                .pattern(" A ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .define('A', ModItems.ZYPHIUM_INGOT.get())
+                .define('*', ModItems.ZYPHIUM_STICK.get())
+                .unlockedBy(getHasName(ModItems.ZYPHIUM_INGOT.get()), has(ModItems.ZYPHIUM_STICK.get())).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ZYPHIUM_SWORD.get())
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" * ")
+                .define('A', ModItems.ZYPHIUM_INGOT.get())
+                .define('*', ModItems.ZYPHIUM_STICK.get())
+                .unlockedBy(getHasName(ModItems.ZYPHIUM_INGOT.get()), has(ModItems.ZYPHIUM_STICK.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ZYPHIUM_HOE.get())
+                .pattern("AA ")
+                .pattern(" * ")
+                .pattern(" * ")
+                .define('A', ModItems.ZYPHIUM_INGOT.get())
+                .define('*', ModItems.ZYPHIUM_STICK.get())
+                .unlockedBy(getHasName(ModItems.ZYPHIUM_INGOT.get()), has(ModItems.ZYPHIUM_STICK.get())).save(pRecipeOutput);
 
 
 

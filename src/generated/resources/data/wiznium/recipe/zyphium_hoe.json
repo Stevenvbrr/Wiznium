@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "*": {
+      "item": "wiznium:zyphium_stick"
+    },
+    "A": {
+      "item": "wiznium:zyphium_ingot"
+    }
+  },
+  "pattern": [
+    "AA ",
+    " * ",
+    " * "
+  ],
+  "result": {
+    "count": 1,
+    "id": "wiznium:zyphium_hoe"
+  }
+}

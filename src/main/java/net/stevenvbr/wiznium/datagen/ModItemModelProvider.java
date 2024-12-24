@@ -31,6 +31,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.AZIUM_AXE);
         handheldItem(ModItems.AZIUM_HOE);
         handheldItem(ModItems.ZYPHIUM_PICKAXE);
+        handheldItem(ModItems.ZYPHIUM_AXE);
+        handheldItem(ModItems.ZYPHIUM_SWORD);
+        handheldItem(ModItems.ZYPHIUM_SHOVEL);
+        handheldItem(ModItems.ZYPHIUM_HOE);
 
 
 

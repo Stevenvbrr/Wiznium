@@ -49,6 +49,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AZIUM_AXE.get());
                         output.accept(ModItems.AZIUM_HOE.get());
                         output.accept(ModItems.ZYPHIUM_PICKAXE.get());
+                        output.accept(ModItems.ZYPHIUM_AXE.get());
+                        output.accept(ModItems.ZYPHIUM_SWORD.get());
+                        output.accept(ModItems.ZYPHIUM_SHOVEL.get());
+                        output.accept(ModItems.ZYPHIUM_HOE.get());
+
                     }).build());
 
 
