@@ -1,4 +1,7 @@
                                             MISE A JOUR DU MOD : 
+19:30 24/12/2024 :
+- Ajout de l'armure en "Azium"
+------------------------------------------------------------------------------
 16:55 24/12/2024 :
 - Ajout du Hammer en wiznium
 - Ajout du craft 
