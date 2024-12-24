@@ -1,5 +1,9 @@
                                             MISE A JOUR DU MOD : 
-
+18:14 23/12/2024 :
+- Ajout du stick et de la pioche en "Zyphium"
+- Ajout des crafts
+- Fix du problème d'enchantement 
+------------------------------------------------------------------------------
 17:26 23/12/2024 :
 - Ajout du nouveau minerai "Zyphium"
 - Ajout du lingot de Zyphium
